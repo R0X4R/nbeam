@@ -25,9 +25,7 @@ go install github.com/R0X4R/nbeam@latest
 **Install from source:**
 
 ```bash
-git clone https://github.com/R0X4R/nbeam.git
-cd nbeam
-go install .
+git clone https://github.com/R0X4R/nbeam.git && cd nbeam && go install .
 ```
 
 ## Usage
