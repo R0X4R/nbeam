@@ -30,17 +30,15 @@ git clone https://github.com/R0X4R/nbeam.git && cd nbeam && go install .
 
 ## Usage
 
-```bash
-nmap -sS -sV -T4 -p- scanme.nmap.org -oA nmap
+```css
+user@device:~$ nmap -sS -sV -T4 -p- scanme.nmap.org -oA nmap
 
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-06-09 10:47 CEST
-
 Nmap scan report for scanme.nmap.org (45.33.32.156)
 
 Host is up (0.18s latency).
 
 Other addresses for scanme.nmap.org (not scanned): 2600:3c01::f03c:91ff:fe18:bb2f
-
 Not shown: 65531 closed tcp ports (reset)
 
 PORT      STATE SERVICE    VERSION
@@ -57,8 +55,8 @@ Nmap done: 1 IP address (1 host up) scanned in 47.09 seconds
 
 Pipe a live Nmap scan directly into nbeam:
 
-```bash
-nmap -sS -sV -T4 -p- scanme.nmap.org -oN - | nbeam
+```css
+user@device:~$ nmap -sS -sV -T4 -p- scanme.nmap.org -oN - | nbeam
 
 scanme.nmap.org:22
 scanme.nmap.org:80
